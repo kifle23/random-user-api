@@ -1,0 +1,72 @@
+.card {
+    width: 400px;
+    height: 400px;
+    background: rgb(250, 255, 255);
+    background: radial-gradient(circle, rgb(39, 65, 140) 0%, rgb(56, 179, 245) 80%);
+    border: 2px solid rgb(54, 158, 63);
+    border-radius: 10px;
+    padding: 1rem 2rem;
+    display: flex;
+    box-shadow: 10px 10px 5px 0px rgb(101, 142, 204);
+    margin: 1rem;
+}
+
+.left {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.right {
+    width: 70%;
+    text-align: center;
+}
+
+.img {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.icon-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icon {
+    width: 30px;
+    margin-top: 25px;
+}
+
+.name {
+    margin-top: 4rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 18px;
+}
+
+.email {
+    margin-top: 5rem;
+}
+
+.phone {
+    margin-top: 2.4rem;
+}
+
+.loca {
+    margin-top: 2.2rem;
+}
+
+.age {
+    margin-top: 1rem;
+
+}
+
+.register {
+    margin-top: 1rem;
+}
